@@ -53,7 +53,8 @@ echo ""
 #Start Packages
 apt update
 apt upgrade -y
-apt install cowsay toilet figlet -y
+apt install cowsay toilet figlet ruby -y
+gem install lolcat
 #End Packages
 clear
 echo ""
