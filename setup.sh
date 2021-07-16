@@ -80,10 +80,11 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
         }
 fi
 
-PS1='${red}${title}@TERMUX [\w]\n|---> ${resetcolor} '
+PS1='\$ '
 clear
 cowsay -f eyes ${title2} | lolcat
 toilet -f big ${title} -F gay | lolcat" > $HOME/../usr/etc/bash.bashrc
+./oh-my-zsh/install.sh
 clear
 echo ""
 echo -e "${red}Termux Customized by ${green}bariscodefx!"
